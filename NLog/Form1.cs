@@ -57,9 +57,6 @@ namespace NLog
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DateTime x;
-            if (DateTime.TryParse(textBox1.Text, out x))
-            { }
             try
             {
                 Convert.ToDateTime(textBox1.Text);
